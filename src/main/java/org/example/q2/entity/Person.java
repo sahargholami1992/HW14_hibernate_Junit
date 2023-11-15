@@ -23,7 +23,7 @@ public class Person {
    private String firstName;
     @NotBlank(message = "last name not empty")
     private String lastName;
-
+    @Temporal(TemporalType.DATE)
    private Date birthDay;
 
 }

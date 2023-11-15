@@ -22,15 +22,15 @@ public class Main {
 //        Person person1 = personService.signUp("samaneh","movahedi");
 //        Person person2 = personService.signUp("sama","boshagh");
 //
-//      Student student1= studentService.signUp("sahar","gholami",100);
+      Student student1= studentService.signUp("sahar","gholami",100);
 //        Student student2= studentService.signUp("pegah","rad",101);
 //
 //        Teacher teacher1 = teacherService.signUp("ali","aliii",1000);
 //        Teacher teacher2 = teacherService.signUp("sara","saraiii",1001);
 
 
-//       student1.setBirthDay(new Date("2010/12/11"));
- //       studentService.update(student1,1);
+       student1.setBirthDay(new Date("2010/12/11"));
+       studentService.update(student1,1);
 //
 //
 //        studentService.delete(3);
